@@ -1,0 +1,9 @@
+(function($){
+	$("#fl-builder-blocks-rows").css("display", "none");
+	//$("#fl-builder-blocks-basic").css("display", "none");
+	$("#fl-builder-blocks-advanced").css("display", "none");
+	$("#fl-builder-blocks-widgets").css("display", "none");
+	//$("#fl-builder-blocks-saved-rows").css("display", "none");
+	//$("#fl-builder-blocks-saved-modules").css("display", "none");
+	
+})(jQuery);

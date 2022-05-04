@@ -1,0 +1,87 @@
+
+.oceaneering-contact-panel {
+    padding: 5px 10px 5px 10px;
+    max-width:245px;
+    color: #00263e;
+    margin: 10px 10px 10px 10px;
+    background:#BFBFBF;
+    font-size: 14px !important;
+}
+
+.oceaneering-contact-panel ul {
+    padding-left: 0px;
+}
+
+.oceaneering-contact-panel li {
+    list-style-type: none;
+    display: inline-flex;
+    margin-bottom: 10px;
+}
+
+.oceaneering-contact-panel img {
+    margin-bottom: 10px;
+    width: 225px;
+}
+
+.oceaneering-contact-panel input {
+        width: 225px;
+    height: 35px;
+    padding-left: 10px;
+    /*-webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;;*/
+}
+#gform_submit_button_5 {
+    background-color: #5F8097 !important;
+    color: #ffffff;
+
+}
+#input_5_8 {
+    border-radius: 0px;
+}
+.oceaneering-contact-panel select {
+    width: 225px;
+    height: 30px;
+}
+
+.oceaneering-contact-panel textarea {
+    width: 225px; height: 80px;
+    padding: 10px;
+}
+
+.oceaneering-contact-panel input,.oceaneering-contact-panel select, .oceaneering-contact-panel textarea{
+    outline: 0;
+    /*-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102,175,233,.6);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102,175,233,.6);
+    background-color: #061626;*/
+    color: #00263e;
+    border: none;
+}
+.oceaneering-contact-panel input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #00263e;
+}
+.oceaneering-contact-panel input::-moz-placeholder { /* Firefox 19+ */
+  color: #00263e;
+}
+.oceaneering-contact-panel input:-ms-input-placeholder { /* IE 10+ */
+  color: #00263e;
+}
+.oceaneering-contact-panel input:-moz-placeholder { /* Firefox 18- */
+  color: #00263e;
+}
+/******
+ Validation errors set to none to avoid styling disaster
+ TODO: update errors to highlight missing fields and fit styling of contact form
+ ******/
+
+.oceaneering-contact-panel .validation_message {
+    display: none;
+}
+
+.oceaneering-contact-panel .validation_error {
+    display: none;
+}
+
+.oceaneering-contact-panel label.gfield_label {
+	display: none;
+}

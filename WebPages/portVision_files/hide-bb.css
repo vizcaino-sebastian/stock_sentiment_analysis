@@ -1,0 +1,3 @@
+div.fl-builder-settings-tabs a[href="#fl-builder-settings-tab-advanced"] { display:none; }
+div.fl-builder-settings-tabs a[href="#fl-builder-settings-tab-style"] { display:none; }
+div.fl-lightbox-wrap.fl-builder-lightbox.fl-builder-settings-lightbox > div.fl-lightbox.ui-draggable > div > div > div > form > div.fl-lightbox-footer > span.fl-builder-settings-save-as.fl-builder-button.fl-builder-button-large { display:none; }
